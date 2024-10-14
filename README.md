@@ -64,4 +64,5 @@ Ce projet consiste à développer une application Android présentant une galeri
 - Filtrage en temps réel des stars via le champ de recherche.
 
 ---
+https://github.com/user-attachments/assets/3eb31fe3-d492-461f-b611-baf8b8a7112c
 
