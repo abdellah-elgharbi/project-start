@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom Toolbar Style -->
+    <style name="CustomToolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item> <!-- Title text color -->
+        <item name="android:background">@color/blue</item> <!-- Background color -->
+        <item name="android:elevation">4dp</item> <!-- Adds shadow/elevation effect -->
+        <item name="android:titleTextAppearance">@style/ToolbarTitleText</item> <!-- Custom title style -->
+        <item name="android:subtitleTextAppearance">@style/ToolbarSubtitleText</item> <!-- Custom subtitle style -->
+    </style>
+
+    <!-- Custom Title Text Appearance -->
+    <style name="ToolbarTitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item> <!-- Title font size -->
+       <!-- Custom font (requires font folder) -->
+    </style>
+
+    <!-- Custom Subtitle Text Appearance -->
+    <style name="ToolbarSubtitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item> <!-- Subtitle font size -->
+    </style>
+</resources>
